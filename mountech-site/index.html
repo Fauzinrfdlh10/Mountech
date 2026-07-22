@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PT Mountech Engineering Indonesia</title>
+  <meta name="description"
+    content="Premium engineering and industrial automation company profile for PT Mountech Engineering Indonesia." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            mountech: {
+              nav: "#7FAFD3",
+              footer: "#7FAFD3",
+              surface: "#F7FAFC",
+              border: "#E5E7EB",
+              heading: "#111827",
+              body: "#374151",
+              muted: "#6B7280",
+              primary: "#2563EB",
+              secondary: "#1D4ED8",
+            },
+          },
+          fontFamily: {
+            sans: ["Inter", "sans-serif"],
+            display: ["Plus Jakarta Sans", "sans-serif"],
+          },
+          boxShadow: {
+            soft: "0 10px 30px rgba(15, 23, 42, 0.08)",
+            card: "0 16px 40px rgba(15, 23, 42, 0.08)",
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="bg-white font-sans text-mountech-body antialiased">
+  <div class="relative overflow-x-hidden">
+    <div class="hero-decoration hero-decoration-left"></div>
+    <div class="hero-decoration hero-decoration-right"></div>
+
+    <header class="site-header fixed inset-x-0 top-0 z-50">
+      <div class="w-full">
+        <div
+          class="nav-frame flex h-[82px] w-full items-center justify-between border-b border-white/20 bg-[rgba(127,175,211,0.98)] px-4 shadow-soft backdrop-blur md:px-8 xl:px-14">
+          <a href="#home" class="logo-frame flex shrink-0 items-center justify-center"
+            aria-label="PT Mountech Engineering Indonesia">
+            <img src="assets/logo/logo-clean.png" alt="Mountech logo" class="logo-frame-image" />
+          </a>
+
+          <nav class="hidden items-center gap-6 text-base font-semibold text-white xl:flex 2xl:gap-9">
+            <a class="nav-link transition hover:text-white/90" href="#home">Home</a>
+            <a class="nav-link transition hover:text-white/90" href="#about">About</a>
+            <a class="nav-link transition hover:text-white/90" href="#services">Services</a>
+            <a class="nav-link transition hover:text-white/90" href="#industries">Industries</a>
+            <a class="nav-link transition hover:text-white/90" href="#portfolio">Portfolio</a>
+            <a class="nav-link transition hover:text-white/90" href="#technology">Technology</a>
+            <a class="nav-link transition hover:text-white/90" href="#workflow">Workflow</a>
+            <a class="nav-link transition hover:text-white/90" href="#contact">Contact</a>
+          </nav>
+
+          <div class="flex items-center gap-3">
+            <button type="button"
+              class="menu-toggle inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/40 bg-white/14 text-white shadow-sm xl:hidden"
+              aria-expanded="false" aria-controls="mobile-menu">
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+
+        <div id="mobile-menu" class="mobile-menu xl:hidden">
+          <div class="mobile-menu-inner">
+            <nav class="mobile-nav">
+              <a class="mobile-nav-link" href="#home">Home</a>
+              <a class="mobile-nav-link" href="#about">About</a>
+              <a class="mobile-nav-link" href="#services">Services</a>
+              <a class="mobile-nav-link" href="#industries">Industries</a>
+              <a class="mobile-nav-link" href="#portfolio">Portfolio</a>
+              <a class="mobile-nav-link" href="#technology">Technology</a>
+              <a class="mobile-nav-link" href="#workflow">Workflow</a>
+              <a class="mobile-nav-link" href="#contact">Contact</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero-bg relative overflow-hidden pt-36 lg:pt-40">
+        <div class="hero-overlay absolute inset-0"></div>
+        <div class="relative z-10 mx-auto max-w-7xl px-6 pb-28 pt-12 lg:px-8 lg:pb-36 lg:pt-20">
+          <div class="reveal-up max-w-2xl">
+            <span class="section-kicker hero-kicker">PT Mountech Engineering Indonesia</span>
+            <h1
+              class="mt-6 max-w-[650px] font-display text-5xl font-bold leading-[0.96] tracking-[-0.06em] text-white sm:text-6xl lg:text-7xl">
+              Engineering the Future of Industry
+            </h1>
+            <p class="mt-6 max-w-xl text-lg leading-8 text-white/80">
+              Integrated engineering solutions across industrial automation, CNC
+              engineering, electrical systems, embedded technology, and smart
+              manufacturing.
+            </p>
+
+            <div class="mt-9 flex flex-col gap-4 sm:flex-row">
+              <a href="#services"
+                class="inline-flex items-center justify-center rounded-xl bg-mountech-primary px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-mountech-secondary">
+                Explore Solutions
+              </a>
+              <a href="#contact"
+                class="inline-flex items-center justify-center rounded-xl border border-white/60 bg-white/10 px-6 py-3.5 text-sm font-semibold text-white backdrop-blur transition hover:-translate-y-0.5 hover:bg-white/20">
+                Contact Engineering Team
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="bg-white py-24 lg:py-28">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="reveal-up text-center">
+            <span class="section-kicker text-lg md:text-xl">About Mountech</span>
+          </div>
+
+          <div class="mt-14">
+            <article
+              class="reveal-left mx-auto max-w-4xl rounded-3xl border border-mountech-border bg-white p-8 shadow-soft lg:p-10">
+              <div class="space-y-6 text-lg leading-8 text-mountech-body">
+                <p>
+                  PT Mountech Engineering Indonesia adalah perusahaan nasional yang bergerak di bidang
+                  Industrial Automation, CNC Engineering, Electrical System, Internet of Things (IoT), Embedded
+                  System, dan Engineering Services.
+                </p>
+                <p>
+                  Kami hadir untuk membantu industri meningkatkan produktivitas melalui solusi rekayasa yang
+                  inovatif, efisien, dan dapat diandalkan. Dengan pengalaman dalam berbagai proyek industri
+                  manufaktur, otomotif, makanan dan minuman, elektronik, hingga institusi pendidikan, kami
+                  berkomitmen memberikan solusi yang tepat sesuai kebutuhan pelanggan.
+                </p>
+                <p>
+                  Kami tidak hanya menjual produk, tetapi juga membangun solusi yang meningkatkan performa
+                  produksi dan menciptakan nilai tambah bagi bisnis pelanggan.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="bg-mountech-surface py-24 lg:py-28">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="reveal-up text-center">
+            <span class="section-kicker text-lg md:text-xl">Services</span>
+            <h2 class="section-title">
+              Professional engineering services shaped for modern industrial execution.
+            </h2>
+          </div>
+
+          <div class="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+            <article class="service-card reveal-up">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 7h16v10H4zM8 4v3M16 4v3M8 17v3M16 17v3" />
+                </svg>
+              </div>
+              <h3 class="service-title">Industrial Automation</h3>
+              <p class="service-copy">PLC programming, HMI development, SCADA systems, industrial networking, and
+                maintenance support.</p>
+              <div class="tag-row"><span>PLC</span><span>HMI</span><span>SCADA</span></div>
+            </article>
+
+            <article class="service-card reveal-up">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 15h16M6 15V8h12v7M8 11h2M14 11h2" />
+                </svg>
+              </div>
+              <h3 class="service-title">CNC Engineering</h3>
+              <p class="service-copy">Retrofit programs, controller upgrades, servo integration, troubleshooting, and
+                precision calibration.</p>
+              <div class="tag-row"><span>Retrofit</span><span>Servo</span><span>Calibration</span></div>
+            </article>
+
+            <article class="service-card reveal-up">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3v8m0 0 3-3m-3 3-3-3M6 13h12v8H6z" />
+                </svg>
+              </div>
+              <h3 class="service-title">Electrical Engineering</h3>
+              <p class="service-copy">Electrical panel design, MCC panels, control panels, industrial wiring, and
+                integration work.</p>
+              <div class="tag-row"><span>Panel</span><span>MCC</span><span>Wiring</span></div>
+            </article>
+
+            <article class="service-card reveal-up">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7 7h10v10H7zM3 10h4M17 10h4M10 3v4M10 17v4" />
+                </svg>
+              </div>
+              <h3 class="service-title">Embedded Systems</h3>
+              <p class="service-copy">Controller development for STM32, ESP32, Arduino, and Raspberry Pi industrial
+                applications.</p>
+              <div class="tag-row"><span>STM32</span><span>ESP32</span><span>Controller</span></div>
+            </article>
+
+            <article class="service-card reveal-up">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 6h16v12H4zM8 10h2M12 10h4M8 14h8" />
+                </svg>
+              </div>
+              <h3 class="service-title">PCB Development</h3>
+              <p class="service-copy">Professional PCB layout, Gerber output, BOM preparation, and multi-layer design
+                review.</p>
+              <div class="tag-row"><span>Altium</span><span>KiCad</span><span>Gerber</span></div>
+            </article>
+
+            <article class="service-card reveal-up">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 16V8l7-4 7 4v8l-7 4-7-4Zm7-8v8m-7-4h14" />
+                </svg>
+              </div>
+              <h3 class="service-title">Internet of Things (IoT)</h3>
+              <p class="service-copy">Cloud-connected monitoring, dashboards, data capture, and predictive maintenance
+                systems.</p>
+              <div class="tag-row"><span>IoT</span><span>Cloud</span><span>Monitoring</span></div>
+            </article>
+
+            <article class="service-card reveal-up">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 16V8l7-4 7 4v8l-7 4-7-4Zm7-8v8m-7-4h14" />
+                </svg>
+              </div>
+              <h3 class="service-title">Software Development</h3>
+              <p class="service-copy">Industrial Monitoring Software, Machine Interface, Data Collection, Database
+                System, Production Dashboard, Desktop Application, Android Application.</p>
+              <div class="tag-row"><span>IoT</span><span>Cloud</span><span>Monitoring</span></div>
+            </article>
+
+            <article class="service-card reveal-up">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 16V8l7-4 7 4v8l-7 4-7-4Zm7-8v8m-7-4h14" />
+                </svg>
+              </div>
+              <h3 class="service-title">Technical Consulting</h3>
+              <p class="service-copy">Factory Automation, Production Improvement, Machine Modernization, Cost Reduction,
+                Energy Saving, Industrial Digitalization.</p>
+              <div class="tag-row"><span>IoT</span><span>Cloud</span><span>Monitoring</span></div>
+            </article>
+
+            <article class="service-card reveal-up">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 16V8l7-4 7 4v8l-7 4-7-4Zm7-8v8m-7-4h14" />
+                </svg>
+              </div>
+              <h3 class="service-title">Industries We Serve</h3>
+              <p class="service-copy">• Manufacturing, Automotive, Food & Beverage, Pharmaceutical, Electronics,
+                Textile, Packaging, Plastic Injection, Metal Fabrication, Educational Institution, Research Laboratory,
+                Government Project.</p>
+              <div class="tag-row"><span>IoT</span><span>Cloud</span><span>Monitoring</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-white py-24 lg:py-28">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="reveal-up text-center">
+            <span class="section-kicker text-lg md:text-xl">Why Choose Us</span>
+          </div>
+
+          <div class="mt-14 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+            <article class="why-card reveal-up">
+              <div class="why-icon">01</div>
+              <h3>Experienced Engineering Team</h3>
+              <p>Tim dengan pengalaman pada berbagai proyek industri.</p>
+            </article>
+            <article class="why-card reveal-up">
+              <div class="why-icon">02</div>
+              <h3>Complete Engineering Solution</h3>
+              <p>Satu partner untuk kebutuhan mekanikal, elektrikal, elektronika, software, hingga
+                commissioning.</p>
+            </article>
+            <article class="why-card reveal-up">
+              <div class="why-icon">03</div>
+              <h3>Custom Design</h3>
+              <p>Setiap solusi dirancang sesuai kebutuhan pelanggan.</p>
+            </article>
+            <article class="why-card reveal-up">
+              <div class="why-icon">04</div>
+              <h3>Fast Response</h3>
+              <p>Dukungan teknis yang cepat dan profesional.</p>
+            </article>
+            <article class="why-card reveal-up">
+              <div class="why-icon">05</div>
+              <h3>Competitive Cost</h3>
+              <p>Solusi engineering berkualitas dengan biaya yang efisien.</p>
+            </article>
+            <article class="why-card reveal-up">
+              <div class="why-icon">06</div>
+              <h3>After Sales Support</h3>
+              <p>Pendampingan teknis setelah proyek selesai.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="bg-white py-24 lg:py-28">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="reveal-up text-center">
+            <span class="section-kicker text-lg md:text-xl">Portfolio</span>
+            <h2 class="section-title">A professional gallery system for industrial case presentation.</h2>
+          </div>
+
+          <div class="mt-14 grid gap-6 lg:grid-cols-3">
+
+            <article class="project-card reveal-up">
+              <div class="project-media"><img src="assets/images/cnc-retrofit.svg" alt="CNC retrofit project" /></div>
+              <div class="project-overlay">
+                <span>CNC Retrofit Project</span>
+                <strong>Controller modernization and servo upgrades</strong>
+                <p>Technology: CNC Retrofit</p>
+              </div>
+            </article>
+
+
+
+            <article class="project-card reveal-up">
+              <div class="project-media"><img src="assets/images/pcb-development.svg" alt="PCB development" /></div>
+              <div class="project-overlay">
+                <span>PCB Development</span>
+                <strong>Production-ready board development and output files</strong>
+                <p>Technology: PCB Design</p>
+              </div>
+            </article>
+
+            <article class="project-card reveal-up">
+              <div class="project-media"><img src="assets/images/embedded-controller.svg" alt="Embedded controller" />
+              </div>
+              <div class="project-overlay">
+                <span>Embedded Controller</span>
+                <strong>Microcontroller platforms for industrial edge systems</strong>
+                <p>Technology: Embedded</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="technology" class="bg-mountech-surface py-24 lg:py-28">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="reveal-up text-center">
+            <span class="section-kicker text-lg md:text-xl">Technology</span>
+            <h2 class="section-title">Kami memiliki kompetensi pada berbagai platform industri, antara lain:</h2>
+          </div>
+
+          <div class="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+            <article class="technology-card reveal-up">
+              <h3>PLC</h3>
+              <div class="tech-tags"><span>Mitsubishi</span><span>Omron</span><span>Siemens</span><span>Delta</span>
+              </div>
+            </article>
+            <article class="technology-card reveal-up">
+              <h3>HMI</h3>
+              <div class="tech-tags"><span>Mitsubishi GOT</span><span>Weintek</span><span>Haiwell</span></div>
+            </article>
+            <article class="technology-card reveal-up">
+              <h3>Embedded</h3>
+              <div class="tech-tags"><span>STM32</span><span>ESP32</span><span>Arduino</span><span>Raspberry Pi</span>
+              </div>
+            </article>
+            <article class="technology-card reveal-up">
+              <h3>IoT</h3>
+              <div class="tech-tags"><span>Cloud Dashboard</span><span>Remote Monitoring</span><span>Predictive
+                  Maintenance</span></div>
+            </article>
+            <article class="technology-card reveal-up">
+              <h3>PCB</h3>
+              <div class="tech-tags"><span>Altium</span><span>KiCad</span></div>
+            </article>
+            <article class="technology-card reveal-up">
+              <h3>Software</h3>
+              <div class="tech-tags"><span>Industrial Dashboard</span><span>Database System</span><span>Android
+                  App</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="workflow" class="bg-white py-24 lg:py-28">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="reveal-up text-center">
+            <span class="section-kicker text-lg md:text-xl">Workflow</span>
+            <h2 class="section-title">A structured delivery workflow from first consultation to after-sales support.
+            </h2>
+          </div>
+
+          <div class="timeline-wrap reveal-up mt-16">
+            <div class="timeline-line hidden lg:block"></div>
+            <div class="grid gap-6 lg:grid-cols-9">
+              <article class="timeline-card"><span>01</span>
+                <h3>Consultation</h3>
+              </article>
+              <article class="timeline-card"><span>02</span>
+                <h3>Engineering Design</h3>
+              </article>
+              <article class="timeline-card"><span>03</span>
+                <h3>Proposal</h3>
+              </article>
+              <article class="timeline-card"><span>04</span>
+                <h3>Manufacturing</h3>
+              </article>
+              <article class="timeline-card"><span>05</span>
+                <h3>Installation</h3>
+              </article>
+              <article class="timeline-card"><span>06</span>
+                <h3>Programming</h3>
+              </article>
+              <article class="timeline-card"><span>07</span>
+                <h3>Testing</h3>
+              </article>
+              <article class="timeline-card"><span>08</span>
+                <h3>Training</h3>
+              </article>
+              <article class="timeline-card"><span>09</span>
+                <h3>After Sales</h3>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="commitment" class="bg-mountech-surface py-24 lg:py-28">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="reveal-up text-center">
+            <span class="section-kicker text-lg md:text-xl">Commitment</span>
+          </div>
+          <div class="mt-8 reveal-up">
+            <div class="contact-info-card rounded-3xl border border-mountech-border bg-white p-8 shadow-soft lg:p-10">
+              <p class="text-lg leading-8 text-mountech-body text-center max-w-4xl mx-auto">Kami percaya bahwa setiap
+                mesin memiliki potensi untuk bekerja lebih cepat,
+                lebih presisi, dan lebih efisien. Melalui inovasi engineering dan teknologi otomasi, PT Mountech
+                Engineering
+                Indonesia berkomitmen menjadi mitra terpercaya dalam transformasi industri menuju Smart
+                Manufacturing dan Industry 4.0</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-mountech-footer text-white">
+      <div class="mx-auto max-w-7xl px-6 py-14 lg:px-8">
+        <div class="grid gap-10 border-t border-white/35 pt-10 md:grid-cols-2 xl:grid-cols-4">
+          <div class="space-y-5">
+            <div
+              class="logo-frame footer-logo-frame inline-flex items-center justify-center rounded-xl bg-white/96 px-4 py-2 shadow-sm">
+              <img src="assets/logo/logo-clean.png" alt="Mountech logo" class="logo-frame-image" />
+            </div>
+            <p class="max-w-sm text-sm leading-7 text-white/92">
+              Jl. Karya Bhakti VI No.16, Cigugur Tengah, Cimahi Tengah, Kota Cimahi, Jawa Barat
+            </p>
+          </div>
+
+          <div class="space-y-4">
+            <h3 class="text-sm font-semibold uppercase tracking-[0.22em] text-white/80">Quick Links</h3>
+            <div class="grid gap-3 text-sm text-white/95">
+              <a href="#about">About</a>
+              <a href="#services">Services</a>
+              <a href="#portfolio">Portfolio</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+
+          <div class="space-y-4">
+            <h3 class="text-sm font-semibold uppercase tracking-[0.22em] text-white/80">Services</h3>
+            <div class="grid gap-3 text-sm text-white/95">
+              <a href="#services">Industrial Automation</a>
+              <a href="#services">CNC Engineering</a>
+              <a href="#services">Electrical Systems</a>
+              <a href="#technology">Technology Showcase</a>
+            </div>
+          </div>
+
+          <div class="space-y-4">
+            <h3 class="text-sm font-semibold uppercase tracking-[0.22em] text-white/80">Contact</h3>
+            <div class="grid gap-3 text-sm text-white/95">
+              <a href="mailto:sales@mountech.id">sales@mountech.id</a>
+              <a href="tel:+6281313321413">+6281313321413</a>
+              <a href="https://mountech.id" target="_blank" rel="noreferrer">mountech.id</a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="mt-10 flex flex-col gap-3 border-t border-white/35 pt-6 text-xs text-white/90 sm:flex-row sm:items-center sm:justify-between">
+          <p>&copy; <span id="year"></span> PT Mountech Engineering Indonesia. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
